@@ -101,7 +101,7 @@ void sortedDate(vector<VehiclePass> passes)
 
 void findCar(vector<VehiclePass> passes, string carNumber)
 {
-    cout << "Результаты поиска для номера машины " << carNumber << ":" << endl;
+    cout << "Результаты поиска для номера машины" << carNumber << ":" << endl;
     bool found = false;
     for (const auto& pass : passes)
     {
